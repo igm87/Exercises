@@ -3,10 +3,11 @@ def ubbi_dubbi(word)->str:
     result = ''
 
     for i in list(word):
-        if i in vowel:
+        if i in vowel.upper():
+            result += 'UB' + i
+        elif i in vowel:
             result += 'ub' + i
         else:
             result += i
     return result
-
 

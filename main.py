@@ -5,6 +5,7 @@ from ubbidubbi import *
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(f'Result => {ubbi_dubbi("octopus")}')
-    print(f'Result => {ubbi_dubbi("elephant")}')
-    print(f'Result => {ubbi_dubbi("soap")}')
+    #print(f'Result => {ubbi_dubbi("octopus")}')
+    #print(f'Result => {ubbi_dubbi("elephant")}')
+    #print(f'Result => {ubbi_dubbi("soap")}')
+    print(f'Result => {ubbi_dubbi("sOAp")}')
