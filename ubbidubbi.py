@@ -1,11 +1,12 @@
 def ubbi_dubbi(word)->str:
     vowel = 'aeiou'
     result = ''
-    for item in range(0,len(word)):
-        if word[item] in vowel:
-            result += 'ub' + word[item]
+
+    for i in list(word):
+        if i in vowel:
+            result += 'ub' + i
         else:
-            result += word[item]
+            result += i
     return result
 
 
