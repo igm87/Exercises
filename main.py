@@ -8,4 +8,5 @@ if __name__ == '__main__':
     #print(f'Result => {ubbi_dubbi("octopus")}')
     #print(f'Result => {ubbi_dubbi("elephant")}')
     #print(f'Result => {ubbi_dubbi("soap")}')
-    print(f'Result => {ubbi_dubbi("sOAp")}')
+    #print(f'Result => {ubbi_dubbi("sOAp")}')
+    print(strsort('cba'))
